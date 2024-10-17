@@ -1,0 +1,140 @@
+h1{
+   color: rgb(0, 0, 0); 
+   text-align: center;
+}
+
+nav {
+    background: linear-gradient(90deg, #37210a, #ff6347);
+    padding: 0;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid transparent; 
+    border-radius: 5px; 
+    
+    
+}
+
+nav a:hover {
+    color: #f4f4f4;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-color: white; 
+}
+
+
+body{
+    font-style: italic;
+    font-size: larger;
+    font-weight: 700;
+    background:url(../assets/imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.yo{
+    width: 250px;
+    position: relative;
+    top: 20px; left: 300px;
+}
+
+
+.futboll{
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    float: right;
+
+
+    
+}
+
+.dormir{
+    width: 200px;
+    margin-right: 20px;
+    float: right;
+
+
+}
+
+.music{
+    width: 150px;
+    margin-right: 20px;
+    float: right;
+
+
+}
+
+.peliculas{
+    width: 200px;
+    margin-right: 20px;
+    float: right;
+
+}
+
+.familia{
+    width: 450px;
+    float: right;
+    margin: 420px 15px 64px 0;
+}
+
+.f1{
+    width: 150px;
+    margin-right: 20px;
+    
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 20px; /
+}
+
+
+main{
+	background: #ff14919b;
+	width: 900px;
+	border: 5px solid red;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px red;
+    margin: 100px 320px 320px 320px;
+    padding: 20px 10px 30px 20px;
+    height: 200;
+}
+
+
+section{
+    margin: 20px 0 0 0;
+}
+
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+li{
+    width: 100%;
+}
+
+section{
+    height: 70%;
+}
